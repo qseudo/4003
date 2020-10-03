@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Neue Machina';
+    src: url(NeueMachina-Regular.otf);
+    font-weight: regular;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url(NeueMachina-Ultrabold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(NeueMontreal-Regular.otf);
+    font-weight: regular;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(NeueMontreal-Bold.otf);
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Neue Montreal';
+    letter-spacing: 0.025em;
+    color: #2d2d2d;
+    font-size: 18px;
+    height: 100vh;
+
+    line-height: 1.6em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #2d2d2d;
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+header div {
+    margin: 0 16px;
+}
+
+header span {
+    font-family: 'Neue Machina';
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+a:visited {
+    color: #2d2d2d;
+}
+
+.work {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 50px;
+}
+
+.work h2 {
+    font-size: 48px;
+    font-family: 'Neue Machina';
+}
+
+.cs {
+    color: lightgrey;
+    text-decoration: line-through;
+}
+
+.work a:hover {
+    text-decoration: underline;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    font-family: 'Neue Montreal';
+}
+
+main {
+    padding: 100px 50px 25px 50px;
+
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+main h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    margin-top: 16px;
+}
+
+main h3 {
+    margin-top: 48px;
+    font-family: 'Neue Machina';
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 25px auto;
+    border: 1px solid #2d2d2d;
+}
+
+div.image {
+    display: block;
+    max-width: 80vw;
+    margin: 0 auto;
+}
